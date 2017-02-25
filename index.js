@@ -49,7 +49,7 @@ app.post( '/upload', upload.single( 'file' ), function( req, res, next ) {
       url: 'http://api.emovu.com/api/image',
       formData: post_data,
       headers: {
-          'LicenseKey':'17228707618720079007733533670174311743221200521420042019733462300514011721'
+          'LicenseKey':''
       }
     };
 
@@ -77,7 +77,7 @@ app.get('/image', function(req, res) {
       url: 'http://api.emovu.com/api/image',
       formData: post_data,
       headers: {
-          'LicenseKey':'17228707618720079007733533670174311743221200521420042019733462300514011721'
+          'LicenseKey':''
       }
     };
     
